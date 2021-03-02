@@ -1,0 +1,58 @@
+<%- include("partials/header"); -%>
+
+<div id="ac_type" class="container">Account type : Non-joint Account </div>
+<div class="container">
+  <div id="joint" class="grid-container">
+    <div class="item1">User1 ID</div>
+    <div class="item1">User1 Name</div>
+    <div class="item2">User2 ID</div>
+    <div class="item1">User2 Name</div>
+    <div class="item3">Account Number</div>
+    <div class="item4">Branch</div>
+    <div class="item5">Balance</div>
+
+    <!--values from account holders data-->
+    <div class="item2">....</div>
+    <div class="item3">....</div>
+    <div class="item4">....</div>
+    <div class="item5">....</div>
+    <div class="item5">....</div>
+    <div class="item5">....</div>
+    <div class="item5">....</div>
+
+  </div>
+</div>
+
+<div id="dropdown_con" class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-8">
+      <div class="dropdown">
+        <label for="usr">Select Transaction type :</label>
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Type
+          <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Deposit</a></li>
+          <li><a href="#">Withdraw</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div id="amount" class="col-md-8">
+      <div class="form-group">
+        <label id="amount_lable" for="usr">Amount :</label>
+        <span><input type="text" class="form-control" id="usr" name="username"></span>
+      </div>
+    </div>
+  </div>
+  <div id="submit" class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2">
+      <button type="button" class="btn btn-primary">Submit</button>
+
+    </div>
+
+
+    <%- include("partials/footer"); -%>

@@ -29,10 +29,13 @@ app.get("/contact",function(req,res){
   res.render("contact");
 })
 
-app.get("/profilecard",function(req,res){
-  res.render("profilecard");
+app.get("/nonjoint",function(req,res){
+  res.render("nonjoint");
 })
 
+app.get("/joint",function(req,res){
+  res.render("joint");
+})
 
 
 app.listen(3000, function() {

@@ -1,5 +1,29 @@
 <%- include("partials/header"); -%>
 
+<div class="row">
+  <div id="sidebar" class="col-md-2">
+    <ul class="list-group">
+      <li class="list-group-item">Name</li>
+      <li class="list-group-item">Address</li>
+      <li class="list-group-item">Employer number</li>
+      <li class="list-group-item">Branch</li>
+    </ul>
+  </div>
+  <div class="col-md-10">
 
+    <div class="jumbotron text-center">
+      <div id="branch">
+        <h1>Branch Name</h1>
+      </div>
+      <form class="form-inline my-2 my-lg-0">
+        <div id=inputText><label for="text">Input User ID </label>
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
 
-<%- include("partials/footer"); -%>
+  </div>
+  <div>
+
+    <%- include("partials/footer"); -%>
